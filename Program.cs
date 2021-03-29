@@ -11,9 +11,10 @@ namespace Кот
     {
 		public override void Voice() // Голос маленького котенка
 		{
-			MessageBox.Show("Я Диана, мяу-мяу-мяу");
-			SoundPlayer Diana = new SoundPlayer(@"C:\Users\KonekoKawai\source\repos\GIt\Diana.wav");
+			SoundPlayer Diana = new SoundPlayer(Properties.Resources.Diana);
 			Diana.Play();
+			MessageBox.Show("Я Диана, мяу-мяу-мяу");
+			
 		}
 
 		public void ParentsVoice() // Голос родительского класса 

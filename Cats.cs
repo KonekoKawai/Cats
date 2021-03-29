@@ -28,6 +28,7 @@ namespace Кот
             Dianka dianka = new Dianka(); // Cоздание объекта Обычный кот Класс обычно кота
             dianka.Voice(); // Вызова метода Voice() Класса Cat 
 
+            NormalCatButton.BackColor = Color.White; // Измненеие цвета кнопки
         }
         private void NormalCatButton_Click(object sender, EventArgs e) // При нажатии в форме Cats 
         { // Кнопки "Обычный кот" 
