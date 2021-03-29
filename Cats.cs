@@ -17,7 +17,7 @@ namespace Кот
             CatPicture.Image = Properties.Resources.Обычный_photo_resizer_ru;
             BigCatPicture.Image = Properties.Resources.Няша1_photo_resizer_ru;
             LittleCatPicture.Image = Properties.Resources.Маленький_photo_resizer_ru;
-            
+            DianaPicture.Image = Properties.Resources.Diana_photo_resizer_ru;
         }
 
         private void DianaButton_CLick(object sender, EventArgs e)
