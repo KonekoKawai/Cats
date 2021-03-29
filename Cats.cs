@@ -17,8 +17,7 @@ namespace Кот
             CatPicture.Image = Properties.Resources.Обычный_photo_resizer_ru;
             BigCatPicture.Image = Properties.Resources.Няша1_photo_resizer_ru;
             LittleCatPicture.Image = Properties.Resources.Маленький_photo_resizer_ru;
-
-
+            DianaPicture.Image = Properties.Resources.Diana_photo_resizer_ru;
         }
 
         private void DianaButton_CLick(object sender, EventArgs e)
@@ -28,7 +27,7 @@ namespace Кот
             Dianka dianka = new Dianka(); // Cоздание объекта Обычный кот Класс обычно кота
             dianka.Voice(); // Вызова метода Voice() Класса Cat 
 
-            NormalCatButton.BackColor = Color.White; // Измненеие цвета кнопки
+            DianaButton.BackColor = Color.White; // Измненеие цвета кнопки
         }
         private void NormalCatButton_Click(object sender, EventArgs e) // При нажатии в форме Cats 
         { // Кнопки "Обычный кот" 
