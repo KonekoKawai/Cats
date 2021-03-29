@@ -35,15 +35,20 @@
             this.BigCatButton = new System.Windows.Forms.Button();
             this.LittleCatButton = new System.Windows.Forms.Button();
             this.NormalCatButton = new System.Windows.Forms.Button();
+            this.DianaPicture = new System.Windows.Forms.PictureBox();
+            this.DianaButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BigCatPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CatPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LittleCatPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DianaPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
+            this.panel1.Controls.Add(this.DianaButton);
+            this.panel1.Controls.Add(this.DianaPicture);
             this.panel1.Controls.Add(this.BigCatPicture);
             this.panel1.Controls.Add(this.CatPicture);
             this.panel1.Controls.Add(this.LittleCatPicture);
@@ -53,7 +58,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(344, 303);
+            this.panel1.Size = new System.Drawing.Size(344, 343);
             this.panel1.TabIndex = 0;
             // 
             // BigCatPicture
@@ -113,11 +118,30 @@
             this.NormalCatButton.UseVisualStyleBackColor = false;
             this.NormalCatButton.Click += new System.EventHandler(this.NormalCatButton_Click);
             // 
+            // DianaPicture
+            // 
+            this.DianaPicture.Location = new System.Drawing.Point(25, 254);
+            this.DianaPicture.Name = "DianaPicture";
+            this.DianaPicture.Size = new System.Drawing.Size(60, 60);
+            this.DianaPicture.TabIndex = 6;
+            this.DianaPicture.TabStop = false;
+            // 
+            // DianaButton
+            // 
+            this.DianaButton.BackColor = System.Drawing.Color.White;
+            this.DianaButton.Location = new System.Drawing.Point(91, 254);
+            this.DianaButton.Name = "DianaButton";
+            this.DianaButton.Size = new System.Drawing.Size(224, 60);
+            this.DianaButton.TabIndex = 2;
+            this.DianaButton.Text = "Как мяукает Диана";
+            this.DianaButton.UseVisualStyleBackColor = false;
+            this.DianaButton.Click += new System.EventHandler(this.DianaButton_CLick);
+            // 
             // Cats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 303);
+            this.ClientSize = new System.Drawing.Size(344, 343);
             this.Controls.Add(this.panel1);
             this.Name = "Cats";
             this.Text = "Как мяукают коты?";
@@ -125,6 +149,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BigCatPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CatPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LittleCatPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DianaPicture)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -139,5 +164,7 @@
         private System.Windows.Forms.Button NormalCatButton;
         private System.Windows.Forms.Button LittleCatButton;
         private System.Windows.Forms.Button BigCatButton;
+        private System.Windows.Forms.Button DianaButton;
+        private System.Windows.Forms.PictureBox DianaPicture;
     }
 }

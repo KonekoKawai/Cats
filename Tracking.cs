@@ -20,6 +20,10 @@ namespace Кот
             ForwardIcon.Image = Properties.Resources.arrow_sign_up_down_back_photo_resizer_ru__1_;
         }
 
+        public void Dianka()
+        {
+            Text = "Обычная Диана";
+        }
         public void normalCat() // Метод вызыванный из формы Cats Относится к обычному коту
         {
            

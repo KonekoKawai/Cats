@@ -22,7 +22,7 @@ namespace Кот.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Кот.Properties {
         ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Кот.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Кот.Properties {
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Кот.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap arrow_sign_up_down_back_photo_resizer_ru__1_ {
+        public static System.Drawing.Bitmap arrow_sign_up_down_back_photo_resizer_ru__1_ {
             get {
                 object obj = ResourceManager.GetObject("arrow_sign_up_down_back_photo_resizer_ru__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace Кот.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Выход_photo_resizer_ru__1_ {
+        public static System.Drawing.Bitmap Выход_photo_resizer_ru__1_ {
             get {
                 object obj = ResourceManager.GetObject("Выход_photo_resizer_ru__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace Кот.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Маленький_photo_resizer_ru {
+        public static System.Drawing.Bitmap Маленький_photo_resizer_ru {
             get {
                 object obj = ResourceManager.GetObject("Маленький_photo_resizer_ru", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace Кот.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Няша1_photo_resizer_ru {
+        public static System.Drawing.Bitmap Няша1_photo_resizer_ru {
             get {
                 object obj = ResourceManager.GetObject("Няша1_photo_resizer_ru", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace Кот.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Обычный_photo_resizer_ru {
+        public static System.Drawing.Bitmap Обычный_photo_resizer_ru {
             get {
                 object obj = ResourceManager.GetObject("Обычный_photo_resizer_ru", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace Кот.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Стрелочка_вниз_photo_resizer_ru__1_ {
+        public static System.Drawing.Bitmap Стрелочка_вниз_photo_resizer_ru__1_ {
             get {
                 object obj = ResourceManager.GetObject("Стрелочка_вниз_photo_resizer_ru__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));

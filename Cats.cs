@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Кот
 {
@@ -20,6 +21,14 @@ namespace Кот
 
         }
 
+        private void DianaButton_CLick(object sender, EventArgs e)
+        {
+            DianaButton.BackColor = Color.LightGreen;
+
+            Dianka dianka = new Dianka(); // Cоздание объекта Обычный кот Класс обычно кота
+            dianka.Voice(); // Вызова метода Voice() Класса Cat 
+
+        }
         private void NormalCatButton_Click(object sender, EventArgs e) // При нажатии в форме Cats 
         { // Кнопки "Обычный кот" 
             NormalCatButton.BackColor = Color.LightGreen; // Измненеие цвета кнопки
