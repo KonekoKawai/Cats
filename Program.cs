@@ -3,9 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Кот
 {
+    public class Dianka : Cat
+    {
+		public override void Voice() // Голос маленького котенка
+		{
+			SoundPlayer Diana = new SoundPlayer(Properties.Resources.Diana);
+			Diana.Play();
+			MessageBox.Show("Я Диана, мяу-мяу-мяу");
+			
+		}
+
+		public void ParentsVoice() // Голос родительского класса 
+		{
+			base.Voice();
+		}
+	}
+
 	public class LittleCat : Cat // Класс "Mаленький котенок" 
 	{
 		public override void Voice() // Голос маленького котенка
